@@ -1,7 +1,7 @@
 /* eslint-disable  */
 
 // these variable set the coords of where the map should appear when the user does not allow the location set.
-// in this case it is set to CHILE
+// in this case it is set to BAHAMAS
 var defaultCenterCoords = {
   lat: 25,
   lng: -77,
