@@ -1,4 +1,5 @@
 // eslint-disable-next-line import/no-cycle
+import { sampleRUM, loadScript } from './lib-franklin.js';
 import { isPerformanceAllowed } from './common.js';
 import {
   DATA_DOMAIN_SCRIPT,
