@@ -1,5 +1,5 @@
 // check if an active campaign is running or OneTrust needs scan the active scripts
-export const COOKIE_CHECK = true;
+export const COOKIE_CHECK = false;
 
 // ONE TRUST COOKIE CONSENT
 export const DATA_DOMAIN_SCRIPT = '30a55483-693c-4ede-9d82-03c4abefff73';
