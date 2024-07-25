@@ -44,7 +44,6 @@ if (isTargetingAllowed()) {
 
 // add more delayed functionality here
 
-
 // Prevent the cookie banner from loading when running in library
 if (!window.location.pathname.includes('srcdoc')
   && !['localhost', 'hlx.page', 'hlx.live', 'aem.page', 'aem.live'].some((url) => window.location.host.includes(url))) {
@@ -72,7 +71,6 @@ window.OptanonWrapper = () => {
     }
   });
 };
-
 
 // Google Analytics
 async function loadGoogleTagManager() {
